@@ -1,0 +1,47 @@
+/* 全局样式 */
+html,
+body,
+#app {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-width: 1366px;
+    /* min-width: 1920px; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* 面包屑重置样式 */
+.el-breadcrumb {
+    margin-bottom: 20px;
+}
+
+/* 卡片重置样式 */
+.el-card {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .5) !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 商品分类的级联选择器高度 设置后就可以出现滚动条 */
+.el-scrollbar__wrap {
+    height: 200px;
+}
+
+/* 富文本编辑器 */
+.ql-toolbar.ql-snow {
+    border: 1px solid #fff;
+}
+
+.ql-editor {
+    min-height: 400px;
+    background-color: white;
+}
+
+.el-tree-node__content {
+    padding: 10px !important;
+}
